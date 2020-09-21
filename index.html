@@ -32,6 +32,14 @@
       .text-responsive {
         font-size: calc(100% + 0.75vw + 0.75vh);
       }
+      .offer-caption {
+        height: 70px;
+        margin-bottom: 30px;
+        font-family: Arial;
+        letter-spacing: 0.2em;
+        line-height: 1.5em;
+        color: rgb(0, 80, 115);
+      }
       .btn-own {
         background-color: rgb(17, 125, 172) !important;
         border-color: #fff !important;
@@ -65,8 +73,24 @@
       .carusel-own {
         width: 75%;
         margin: auto;
-        height: 130px;
         padding-top: 0px;
+        height: 210px;
+      }
+
+      @media (min-width: 576px) {
+        .carusel-own {
+          height: 170px;
+        }
+      }
+      @media (min-width: 768px) {
+        .carusel-own {
+          height: 130px;
+        }
+      }
+      @media (min-width: 992px) {
+        .carusel-own {
+          height: 100px;
+        }
       }
     </style>
     <title>Ingatlan adásvételi szerződés Budapest</title>
@@ -149,21 +173,11 @@
         class="carousel slide mt-5"
         data-ride="carousel"
       >
-        <ol class="carousel-indicators">
-          <li
-            data-target="#carouselExampleCaptions"
-            data-slide-to="0"
-            class="active"
-          ></li>
-          <li data-target="#carouselExampleCaptions" data-slide-to="1"></li>
-          <li data-target="#carouselExampleCaptions" data-slide-to="2"></li>
-        </ol>
         <div class="carousel-inner">
           <div class="carousel-item active">
             <img
               src="https://lh3.googleusercontent.com/FW9_HCdhdlzNJmvBtZRB1hjHPUs7cnXFkutsuufyJvaesTTDMduQUnIDhLOnSsxq2Lk5FD01nA0AuKU=s60"
               class="d-block"
-              alt="..."
             />
             <div class="carousel-caption carusel-own">
               <h5>
@@ -177,7 +191,6 @@
             <img
               src="https://lh3.googleusercontent.com/FW9_HCdhdlzNJmvBtZRB1hjHPUs7cnXFkutsuufyJvaesTTDMduQUnIDhLOnSsxq2Lk5FD01nA0AuKU=s60"
               class="d-block"
-              alt="..."
             />
             <div class="carousel-caption carusel-own">
               <h5>
@@ -192,7 +205,6 @@
             <img
               src="https://lh3.googleusercontent.com/FW9_HCdhdlzNJmvBtZRB1hjHPUs7cnXFkutsuufyJvaesTTDMduQUnIDhLOnSsxq2Lk5FD01nA0AuKU=s60"
               class="d-block"
-              alt="..."
             />
             <div class="carousel-caption carusel-own">
               <h5>
@@ -236,7 +248,7 @@
             src="https://lh3.googleusercontent.com/lBeipypLTmmCeNQitS4Qe3ZynHZ-IOButyj35De9025IpOQ2azo4hrdiWClD8RzSc6F1WvWPGOJ-D_k3Kw=s80"
             class="rounded mb-3"
           />
-          <h5 style="height: 70px;">
+          <h5 class="offer-caption">
             ADÁSVÉTELI SZERZŐDÉS <br />
             ELŐKÉSZÍTÉSE
           </h5>
@@ -251,7 +263,7 @@
             src="https://lh3.googleusercontent.com/tSUDPbj16TKbtbfoDqtgxLSbjjplwUeGCFiQlDh_dy_aEQ3KzcjXHMAh8hGdUqCpTtxuMQMZVdz2XXT-nA=s80"
             class="rounded mb-3"
           />
-          <h5 style="height: 70px;">
+          <h5 class="offer-caption">
             ADÁSVÉTELI SZERZŐDÉS <br />
             ALÁÍRÁSA
           </h5>
@@ -266,7 +278,7 @@
             src="https://lh3.googleusercontent.com/kWg2Iyda-1I8TQMz38mdU_BFtanyH8nOy_njvJ_JVzBjSO6wKE-StLZqR4rVHBgpKFGH2O0aeKAES67hDA=s80"
             class="rounded mb-3"
           />
-          <h5 style="height: 70px;">
+          <h5 class="offer-caption">
             VÉTELÁR KIFIZETÉSE, <br />
             BIRTOKÁTRUHÁZÁS
           </h5>
@@ -281,7 +293,7 @@
             src="https://lh3.googleusercontent.com/G_m8EMbZPt-CQUwX7tUxy4OWSU-Qj9BGbZetOK6iAIypGm4VYAhu799NBoiADouSmpxvdAB3wrUCsZV6=s80"
             class="rounded mb-3"
           />
-          <h5 style="height: 70px;">
+          <h5 class="offer-caption">
             VEVŐ TULAJDONJOGÁNAK <br />
             BEJEGYZÉSE
           </h5>
@@ -307,7 +319,7 @@
       </div>
       <div class="row mt-5">
         <div class="col text-center">
-          <h5>KAPCSOLAT</h5>
+          <h5 style="color:rgb(0, 80, 115); font-size: 1.6em; letter-spacing: 0.3rem; font-weight: 400;">KAPCSOLAT</h5>
           <h6>06 30 3645 411 | info@drmarkolevai.hu</h6>
           <h6>1023 Budapest, Árpád fejedelem útja 40-41.</h6>
         </div>
